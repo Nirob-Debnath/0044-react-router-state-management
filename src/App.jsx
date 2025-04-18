@@ -1,15 +1,22 @@
+import { Suspense } from 'react'
 import './App.css'
-import Hero from './Hero'
-import Navbar from './Navbar'
 import NavbarTop from './NavbarTop'
+import PricingOptions from './assets/components/pricingoptions/PricingOptions'
+
+const pricingPromise = fetch('./PricingData.json').then(res=>res.json());
 
 function App() {
 
   return (
     <>
+    <header>
       <NavbarTop></NavbarTop>
-      <Navbar></Navbar>
-      <Hero></Hero>
+    </header>
+    <main>
+      <Suspense fallback={<span className="loading loading-spinner loading-lg"></span>}>
+        <PricingOptions pricingPromise={pricingPromise}></PricingOptions>
+      </Suspense>
+    </main>
     </>
   )
 }

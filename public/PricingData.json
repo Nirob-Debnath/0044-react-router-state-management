@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Starter",
+      "price": "$29/month",
+      "description": "Great for anyone new to the gym life.",
+      "features": [
+        "Full access to gym equipment",
+        "Locker room access",
+        "1 free fitness assessment",
+        "Open from 6AM to 10PM",
+        "Access to cardio machines",
+        "Free Wi-Fi",
+        "Monthly fitness progress tracking"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Fit Plus",
+      "price": "$49/month",
+      "popular": true,
+      "description": "Perfect for regular gym-goers looking to level up.",
+      "features": [
+        "Includes all Starter features",
+        "Unlimited group fitness classes",
+        "2 personal training sessions/month",
+        "Fitness tracking via mobile app",
+        "Free nutrition plan",
+        "Access to weightlifting area",
+        "Weekly fitness challenges",
+        "Priority booking for classes"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Elite",
+      "price": "$79/month",
+      "description": "For serious fitness enthusiasts who want the best.",
+      "features": [
+        "Includes all Fit Plus features",
+        "Unlimited personal training",
+        "24/7 gym access",
+        "Sauna and steam room",
+        "Free gym merch (T-shirt, shaker)",
+        "Access to exclusive VIP events",
+        "Free guest passes for friends",
+        "Body composition analysis",
+        "Dedicated workout area"
+      ]
+    }
+]
