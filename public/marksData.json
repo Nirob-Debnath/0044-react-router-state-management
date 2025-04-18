@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "student_name": "John Doe",
+      "roll_number": "12345",
+      "marks": {
+        "physics": 85,
+        "chemistry": 78,
+        "math": 92
+      },
+      "total": 255,
+      "percentage": 85.0
+    },
+    {
+      "id": 2,
+      "student_name": "Alice Smith",
+      "roll_number": "12346",
+      "marks": {
+        "physics": 88,
+        "chemistry": 82,
+        "math": 91
+      },
+      "total": 261,
+      "percentage": 87.0
+    },
+    {
+      "id": 3,
+      "student_name": "Bob Johnson",
+      "roll_number": "12347",
+      "marks": {
+        "physics": 75,
+        "chemistry": 80,
+        "math": 85
+      },
+      "total": 240,
+      "percentage": 80.0
+    },
+    {
+      "id": 4,
+      "student_name": "Charlie Brown",
+      "roll_number": "12348",
+      "marks": {
+        "physics": 90,
+        "chemistry": 85,
+        "math": 95
+      },
+      "total": 270,
+      "percentage": 90.0
+    },
+    {
+      "id": 5,
+      "student_name": "David Lee",
+      "roll_number": "12349",
+      "marks": {
+        "physics": 78,
+        "chemistry": 74,
+        "math": 88
+      },
+      "total": 240,
+      "percentage": 80.0
+    }
+]
